@@ -1,7 +1,6 @@
 " Vundle setup
     set nocompatible " be iMproved
     filetype off     " required!
-
     so ~/.myvim/bundles.vim
 
     filetype plugin indent on     " required!
@@ -386,3 +385,5 @@ let g:tagbar_autofocus = 1
 
 let snippets_dir="~/.myvim/snippets"
   map ; :!
+
+:match Tag /^\s*Bundle/

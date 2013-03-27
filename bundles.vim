@@ -14,38 +14,35 @@
     " Interface
         Bundle 'git://github.com/altercation/vim-colors-solarized.git'
         Bundle 'https://github.com/motemen/git-vim.git'
-    
-        Bundle 'https://github.com/Lokaltog/vim-powerline'
+        Bundle 'https://github.com/Lokaltog/powerline'
+        "Bundle 'https://github.com/Lokaltog/vim-powerline'
+        "Git wrapper
         Bundle 'https://github.com/tpope/vim-fugitive.git'
+        "A tree explorer plugin
         Bundle 'git://github.com/scrooloose/nerdtree.git'
-        
+        "Perform all your vim insert mode completions with Tab    
         Bundle 'git://github.com/ervandew/supertab.git'
-
+        "Go To file
         Bundle 'git://github.com/wincent/Command-T.git'
-
+        "Changes Vim working directory to project root
         Bundle 'git://github.com/airblade/vim-rooter.git'
-        
+           
         Bundle 'git://github.com/vim-scripts/taglist.vim.git'
 
         Bundle 'git://github.com/majutsushi/tagbar'
-        
-        
+        "Vim plugin for intensely orgasmic commenting 
         Bundle 'git://github.com/scrooloose/nerdcommenter.git'
-
+        "Snippets
         Bundle 'git://github.com/msanders/snipmate.vim.git'
-
+        "plugin which formated javascript files by js-beautify
         Bundle 'https://github.com/maksimr/vim-jsbeautify.git'
-        " depends: http://ctags.sourceforge.net/
-"       Bundle 'git://github.com/int3/vim-taglist-plus.git'
-        "Bundle 'git://github.com/vim-scripts/IndexedSearch.git'
-        "Bundle 'git://github.com/rphillips/vim-zoomwin.git'
+       Bundle 'https://github.com/godlygeek/tabular.git'
+        Bundle 'git://github.com/vim-scripts/TaskList.vim.git'
+       
         Bundle 'git://github.com/mattn/zencoding-vim.git'
-        "Bundle 'git://github.com/vim-scripts/UltiSnips.git'
-        "Bundle 'git://github.com/miripiruni/vimi-snippets.git'
+        "Vim plugin for the Perl module / CLI script 'ack
         Bundle 'git://github.com/mileszs/ack.vim.git'
-        "Bundle 'git://github.com/tpope/vim-surround.git'
-        "Bundle 'git://github.com/tpope/vim-fugitive.git'
-        Bundle 'git://github.com/tsaleh/vim-align.git'
+         Bundle 'git://github.com/tsaleh/vim-align.git'
         "Bundle 'git://github.com/vim-scripts/bufexplorer.zip.git'
         "Bundle 'git://github.com/vim-scripts/delimitMate.vim.git'
         "Bundle 'git://github.com/sjl/gundo.vim.git'
@@ -58,14 +55,11 @@
        "Syntastic is a syntax checking plugin that runs files through external
        "syntax checkers and displays any resulting errors to the user. 
         "Bundle 'git://github.com/scrooloose/syntastic.git'
+        "Bundle 'git://github.com/tpope/vim-surround.git'
+         "Bundle 'git://github.com/vim-scripts/IndexedSearch.git'
+        "Bundle 'git://github.com/rphillips/vim-zoomwin.git'
+        "Bundle 'git://github.com/tpope/vim-fugitive.git'
 
-        Bundle 'https://github.com/godlygeek/tabular.git'
-        Bundle 'git://github.com/vim-scripts/TaskList.vim.git'
-    " Lua
-        "Bundle 'git://github.com/vim-scripts/lua.vim.git'
-        "Bundle 'git://github.com/rkowal/Lua-Omni-Vim-Completion.git'
-        "Bundle 'git://github.com/xolox/vim-lua-ftplugin.git'
-        "Bundle 'git://github.com/xolox/vim-lua-inspect.git'
     " HTML/HAML
         Bundle 'git://github.com/othree/html5.vim.git'
         Bundle 'git://github.com/hokaccha/vim-html5validator.git'
@@ -85,20 +79,11 @@
         Bundle 'git://github.com/walm/jshint.vim.git'
     " JSON
         Bundle 'git://github.com/leshill/vim-json.git'
-    " PHP
-        "Bundle 'git://github.com/vim-scripts/php.vim--Garvin.git'
-        "Bundle 'git://github.com/2072/PHP-Indenting-for-VIm.git'
     " Python/Django
         Bundle 'git://github.com/fs111/pydoc.vim.git'
-    " Perl
-   "     Bundle 'git://github.com/petdance/vim-perl.git'
     " Ruby/Rails
         "Bundle 'git://github.com/vim-ruby/vim-ruby.git'
         "Bundle 'git://github.com/tpope/vim-rails.git'
         "Bundle 'git://github.com/tpope/vim-endwise.git'
     " Jade
         Bundle 'git://github.com/digitaltoad/vim-jade.git'
-    " Stylus
-        "Bundle 'git://github.com/wavded/vim-stylus.git'
-
-

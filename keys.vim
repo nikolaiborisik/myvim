@@ -82,7 +82,8 @@
 
 
     " ,v  Pressing ,v opens the .vimrc in a new tab
-        nmap <leader>v :tabedit $MYVIMRC<CR>
+        "nmap <leader>v :tabedit $MYVIMRC<CR>
+        nmap <leader>v :tabedit ~/.myvim<CR>
 
 
     " ,bl show buffers
