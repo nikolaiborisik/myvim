@@ -340,7 +340,6 @@ so ~/.myvim/keys.vim
         endtry
 
     " NERDTree
-        nmap <Bs> :NERDTreeToggle<CR>
         let NERDTreeShowBookmarks=1
         let NERDTreeChDirMode=2
         let NERDTreeQuitOnOpen=1
@@ -386,4 +385,4 @@ let g:tagbar_autofocus = 1
 let snippets_dir="~/.myvim/snippets"
   map ; :!
 
-:match Tag /^\s*Bundle/
+syn match Tag /^\s*Bundle/

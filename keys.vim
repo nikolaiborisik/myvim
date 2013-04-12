@@ -2,30 +2,39 @@
 " with LEADER
     let mapleader = "," " мапим <Leader> на запятую. По умолчанию <Leader> это обратный слэш \
 
+    ",1
+        nmap <Leader>1 :NERDTreeToggle<CR>
+
+    ",2
+        nmap <Leader>2 :GundoToggle<CR> 
+    ",3
+        nmap <Leader>3 :TagbarToggle<CR>
+
+    ",4 
+        nmap <Leader>4 :Gstatus<CR>
     ",q TodoList
-    map <Leader>q :q<CR>
+        map <Leader>q :q<CR>
     ",w
        
-   "e
-    map <Leader>e <C-w>w
+   ",e
+        map <Leader>e <C-w>w
 
-    " ,r  Поиск и замена во всех открытых буферах http://vim.wikia.com/wiki/VimTip382
-       map <Leader>r :call Replace()<CR>
+    ",r  Поиск и замена во всех открытых буферах http://vim.wikia.com/wiki/VimTip382
+         map <Leader>r :call Replace()<CR>
 
     ",ts    Fix Trailing White Space
-        map <leader>ts :%s/\s\+$//e<CR>
+         map <leader>ts :%s/\s\+$//e<CR>
 
 
     ",y
-    nmap <Leader>y :TagbarToggle<CR>
 
-    " ,u Change case to uppercase
+    ",u Change case to uppercase
         nnoremap <Leader>u gUiw
         inoremap <Leader>u <esc>gUiwea
 
 
     ",i
-    nmap <leader>i :call JsBeautify()<CR>
+        nmap <leader>i :call JsBeautify()<CR>
 
     ",o
     
@@ -45,10 +54,10 @@
     ",d
 
     " ,f  Fast grep грепает в текущей директории по слову, на котором стоит курсор
-        map <Leader>f :execute "Ack " . expand("<cword>") <Bar> cw<CR>
+         map <Leader>f :execute "Ack " . expand("<cword>") <Bar> cw<CR>
 
     " ,g
-       map <Leader>g <Esc>:call ToggleGUINoise()<cr>
+        map <Leader>g <Esc>:call ToggleGUINoise()<cr>
     
     " Создаем пустой сплит относительно текущего
     "h
@@ -109,8 +118,8 @@
 
        map <F7> mzgg=G`z<CR>
     " Ctrl+s
-        map <C-s> <esc>:w<CR>
-        imap <C-s> <esc>:w<CR>
+       map <C-s> <esc>:w<CR>
+       imap <C-s> <esc>:w<CR>
 
 
     " <Esc><Esc>  Clear the search highlight in Normal mode
