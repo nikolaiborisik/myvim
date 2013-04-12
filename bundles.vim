@@ -13,6 +13,9 @@
         Bundle 'L9'
     " Interface
     "
+
+        "Bundle 'https://github.com/vim-scripts/Colour-Sampler-Pack.git'
+        
         Bundle 'git://github.com/altercation/vim-colors-solarized.git'
     "EasyMotion provides a much simpler way to use some motions in vim. It takes
     "the <number> out of <number>w or <number>f{char} by highlighting all
@@ -49,7 +52,17 @@
     "or o to open that commit in a split. When you're done, use :Gedit in
     "the historic buffer to go back to the work tree version.
         Bundle 'https://github.com/tpope/vim-fugitive.git'
-        
+    
+    "A git commit browser / git log wrapper that extends fugitive.vim.
+    "<CR> edits the revision on the current line in a fugitive-buffer.
+    "oh, ov, and ot edit the revision under the cursor in a new horizontal split
+    "/ vertical split / tab respectively.
+    "dh, dv, and dt diff the current file against the revision under the cursor
+    "in a new horizontal split / vertical split / tab respectively.
+    "t toggles the visibility of the file diff buffer.
+    "q closes the Extradite buffer.
+        Bundle 'https://github.com/int3/vim-extradite.git'
+
     "A tree explorer plugin
         Bundle 'git://github.com/scrooloose/nerdtree.git'
         
@@ -113,7 +126,7 @@
         Bundle 'git://github.com/vim-scripts/delimitMate.vim.git'
 
         Bundle 'https://github.com/godlygeek/tabular.git'
-        "Bundle 'git://github.com/vim-scripts/TaskList.vim.git'
+        Bundle 'git://github.com/vim-scripts/TaskList.vim.git'
        
         Bundle 'git://github.com/mattn/zencoding-vim.git'
 
@@ -147,6 +160,24 @@
         "Bundle 'git://github.com/tpope/vim-surround.git'
         "Bundle 'git://github.com/vim-scripts/IndexedSearch.git'
         "Bundle 'git://github.com/rphillips/vim-zoomwin.git'
+
+    "The checksyntax plugin runs an external syntax checker for the current
+    "buffer 
+    "whenever the buffer is saved (by calling the |:CheckSyntax| command).
+    "Syntax 
+    "errors are managed as location or quickfix lists. If any syntax error
+    "occurs, 
+    "the |location-list| is opened (users can redefine |CheckSyntaxFail()|
+    "to change 
+    "this behaviour). You can use any |location-list| related command to
+    "navigate 
+    "the list of syntax errors.
+        Bundle 'https://github.com/tomtom/checksyntax_vim.git'
+
+    "This script adds two new command ":CopyPath" and ":CopyFileName".
+    "You can use the ":CopyPath" command to copy file path to clipboard,
+    "and you can use the ":CopyFileName" command to copy file name  clipboard.
+        Bundle 'https://github.com/taku-o/vim-copypath.git'
 
     " HTML/HAML
         Bundle 'git://github.com/othree/html5.vim.git'

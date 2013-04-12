@@ -9,10 +9,18 @@
         nmap <Leader>2 :GundoToggle<CR> 
     ",3
         nmap <Leader>3 :TagbarToggle<CR>
-
+    
     ",4 
         nmap <Leader>4 :Gstatus<CR>
-    ",q TodoList
+
+    ",5 
+        nmap <Leader>5 :JSHint<CR>
+
+    ",6 
+        nmap <Leader>6 :Extradite<CR>
+    ",6 TodoList
+        nmap <Leader>7 :TaskList<CR>
+    ",q quit
         map <Leader>q :q<CR>
     ",w
        
@@ -245,4 +253,16 @@
     " Ремапим русские символы
          set langmap=ёйцукенгшщзхъфывапролджэячсмитьбюЁЙЦУКЕHГШЩЗХЪФЫВАПРОЛДЖЭЯЧСМИТЬБЮ;`qwertyuiop[]asdfghjkl\\;'zxcvbnm\\,.~QWERTYUIOP{}ASDFGHJKL:\\"ZXCVBNM<>
 
-
+" Fugitive
+" It looks pretty nice
+"nnoremap <leader>gs :Gstatus<CR>
+"nnoremap <leader>ga :Gwrite<CR>
+"nnoremap <leader>gc :Gcommit %<CR>
+"nnoremap <leader>gd :Gdiff<CR>
+"nnoremap <leader>gl :Glog<CR>
+"nnoremap <leader>gb :Gblame<CR>
+"nnoremap <leader>gr :Gremove<CR>
+"nnoremap <leader>go :Gread<CR>
+"nnoremap <leader>gpl :Git pull origin master<CR>
+"nnoremap <leader>gpp :Git push<CR>
+"nnoremap <leader>gpm :Git push origin master<CR>
