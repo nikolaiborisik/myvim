@@ -155,8 +155,8 @@
 
    "Syntastic is a syntax checking plugin that runs files through external
    "syntax checkers and displays any resulting errors to the user. 
-        "Bundle 'git://github.com/scrooloose/syntastic.git'
-
+        Bundle 'git://github.com/scrooloose/syntastic.git'
+        Bundle 'https://github.com/myhere/vim-nodejs-complete.git'
         "Bundle 'git://github.com/tpope/vim-surround.git'
         "Bundle 'git://github.com/vim-scripts/IndexedSearch.git'
         "Bundle 'git://github.com/rphillips/vim-zoomwin.git'

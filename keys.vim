@@ -19,11 +19,11 @@
     ",6 
         nmap <Leader>6 :Extradite<CR>
     ",6 TodoList
-        nmap <Leader>7 :TaskList<CR>
+        map <unique> <Leader>7 <Plug>TaskList
     ",q quit
         map <Leader>q :q<CR>
     ",w
-       
+        map <Leader>w :execute "!ws %:p ".line(".")<CR>       
    ",e
         map <Leader>e <C-w>w
 
@@ -42,7 +42,7 @@
 
 
     ",i
-        nmap <leader>i :call JsBeautify()<CR>
+        map <leader>i :call JsBeautify(line("'<"), line("'>"))<CR>
 
     ",o
     
@@ -51,8 +51,6 @@
         set pastetoggle=<Leader>p
 
     ",a
-        nmap <leader>a= :Tabularize /=<CR>
-        vmap <leader>a= :Tabularize /=<CR>
         nmap <leader>a: :Tabularize /:\zs<CR>
         vmap <leader>a: :Tabularize /:\zs<CR>
      " ,s
@@ -266,3 +264,4 @@
 "nnoremap <leader>gpl :Git pull origin master<CR>
 "nnoremap <leader>gpp :Git push<CR>
 "nnoremap <leader>gpm :Git push origin master<CR>
+

@@ -375,7 +375,9 @@ so ~/.myvim/keys.vim
       " let Tlist_Ctags_Cmd='/usr/local/bin/jsctags'
         filetype on
 "User bash instead shell
-set shell=/bin/bash\ --rcfile\ ~/.bashrc\ -i
+set shell=/bin/bash\ --rcfile\ ~/.bash_profile\ -i
+"set shell=/bin/zsh\ -l
+"set shell=zsh\ -i
 "Tagbar
 let g:tagbar_left = 1
 let g:tagbar_compact = 1
@@ -386,3 +388,4 @@ let snippets_dir="~/.myvim/snippets"
   map ; :!
 
 syn match Tag /^\s*Bundle/
+au FileType javascript set dictionary+=$HOME/.myvim/dict/node.dict
