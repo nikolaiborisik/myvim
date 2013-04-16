@@ -1,4 +1,4 @@
-
+"Filename completions <C-x><C-f>
 " with LEADER
     let mapleader = "," " мапим <Leader> на запятую. По умолчанию <Leader> это обратный слэш \
 
@@ -22,8 +22,9 @@
         map <unique> <Leader>7 <Plug>TaskList
     ",q quit
         map <Leader>q :q<CR>
-    ",w
+    ",w start webstorm
         map <Leader>w :execute "!ws %:p ".line(".")<CR>       
+
    ",e
         map <Leader>e <C-w>w
 
@@ -36,10 +37,10 @@
 
     ",y
 
+    "EXAMPLE
     ",u Change case to uppercase
         nnoremap <Leader>u gUiw
         inoremap <Leader>u <esc>gUiwea
-
 
     ",i
         map <leader>i :call JsBeautify(line("'<"), line("'>"))<CR>
@@ -63,7 +64,7 @@
          map <Leader>f :execute "Ack " . expand("<cword>") <Bar> cw<CR>
 
     " ,g
-        map <Leader>g <Esc>:call ToggleGUINoise()<cr>
+        "map <Leader>g <Esc>:call ToggleGUINoise()<cr>
     
     " Создаем пустой сплит относительно текущего
     "h
@@ -92,12 +93,11 @@
 
     ",x
 
-    " ,c  camelCase => camel_case
+    " ,c  
         vnoremap <silent> <Leader>c :s/\v\C(([a-z]+)([A-Z]))/\2_\l\3/g<CR>
 
 
     " ,v  Pressing ,v opens the .vimrc in a new tab
-        "nmap <leader>v :tabedit $MYVIMRC<CR>
         nmap <leader>v :tabedit ~/.myvim<CR>
 
 
@@ -121,7 +121,7 @@
 
 
 
-
+    "Fix indentation
        map <F7> mzgg=G`z<CR>
     " Ctrl+s
        map <C-s> <esc>:w<CR>
@@ -149,8 +149,8 @@
         nnoremap Y y$
 
     " Pasting with correct indention
-        "nmap p p=`]
-        "nmap P P=`[
+        nmap p p=`]
+        nmap P P=`[
 
     " Disable <Arrow keys>
         " Warning: nightmare mode!

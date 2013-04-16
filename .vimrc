@@ -4,22 +4,10 @@
     so ~/.myvim/bundles.vim
 
     filetype plugin indent on     " required!
-    " Brief help
-    " :BundleList          - list configured bundles
-    " :BundleInstall(!)    - install(update) bundles
-    " :BundleSearch(!) foo - search(or refresh cache first) for foo
-    " :BundleClean(!)      - confirm(or auto-ap prove) removal of unused bundles
-    " see :h vundle for more details or wiki for FAQ
-
-
 
 
 " Interface
     set nonumber                  " Не показываем нумерацию строк
-                                  " Во-первых, номер текущей строки всегда
-                                  " есть в statusline, во-вторых, всегда можно
-                                  " быстро перейти к нужной строке набрав :1
-                                  " где 1 — номер строки.
 
     set encoding=utf-8            " character encoding used inside Vim.
     set fileencodings=utf-8,cp1251 " Возможные кодировки файлов и последовательность определения
@@ -259,7 +247,7 @@ so ~/.myvim/keys.vim
     set noautochdir "prevent change dir for CommandT
     set history=1000 " store lots of :cmdline history
     "cmap w!! %!sudo tee > /dev/null % " save file with root permissions"
-    command! W exec 'w !sudo tee % > /dev/null' | e!
+    "command! W exec 'w !sudo tee % > /dev/null' | e!
 
     " Backspacing settings
         " start     allow backspacing over the start of insert;
@@ -385,7 +373,6 @@ let g:tagbar_width = 30
 let g:tagbar_autofocus = 1
 
 let snippets_dir="~/.myvim/snippets"
-  map ; :!
 
 syn match Tag /^\s*Bundle/
 au FileType javascript set dictionary+=$HOME/.myvim/dict/node.dict

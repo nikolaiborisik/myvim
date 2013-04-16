@@ -1,3 +1,9 @@
+    " :BundleList          - list configured bundles
+    " :BundleInstall(!)    - install(update) bundles
+    " :BundleSearch(!) foo - search(or refresh cache first) for foo
+    " :BundleClean(!)      - confirm(or auto-ap prove) removal of unused bundles
+    " see :h vundle for more details or wiki for FAQ
+
     set rtp+=~/.vim/bundle/vundle/
     call vundle#rc()
 
@@ -102,6 +108,7 @@
     "Comments the given lines using only one set of multipart delimiters.
     "
     "[count]<leader>ci
+        "nmap <leader>v :tabedit $MYVIMRC<CR>
     "Toggles the comment state of the selected line(s) individually.
     "
     "[count]<leader>cs
