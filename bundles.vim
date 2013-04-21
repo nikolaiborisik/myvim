@@ -37,7 +37,7 @@
     "Git-vim provides:
     "Plugin files for calling git functions from inside Vim
     "Syntax files for git displays
-       "Bundle 'https://github.com/motemen/git-vim.git'
+       Bundle 'https://github.com/motemen/git-vim.git'
 
     "Powerline is a utility plugin which allows you to create better-looking,
     "more functional vim statuslines.
@@ -94,7 +94,7 @@
     "Changes Vim working directory to project root
         Bundle 'git://github.com/airblade/vim-rooter.git'
            
-       "Bundle 'git://github.com/vim-scripts/taglist.vim.git'
+       Bundle 'git://github.com/vim-scripts/taglist.vim.git'
 
         Bundle 'git://github.com/majutsushi/tagbar'
 
@@ -130,12 +130,12 @@
 
     "This plug-in provides automatic closing of quotes, parenthesis, brackets,
     "etc.
-        Bundle 'git://github.com/vim-scripts/delimitMate.vim.git'
+        "Bundle 'git://github.com/vim-scripts/delimitMate.vim.git'
 
-        Bundle 'https://github.com/godlygeek/tabular.git'
-        Bundle 'git://github.com/vim-scripts/TaskList.vim.git'
+        "Bundle 'https://github.com/godlygeek/tabular.git'
+        "Bundle 'git://github.com/vim-scripts/TaskList.vim.git'
        
-        Bundle 'git://github.com/mattn/zencoding-vim.git'
+        "Bundle 'git://github.com/mattn/zencoding-vim.git'
 
     "Vim plugin for the Perl module / CLI script 'ack
         Bundle 'git://github.com/mileszs/ack.vim.git'
@@ -150,7 +150,7 @@
     "% cycle forward through matching groups, such as if, else,endif",
     "g% Cycle backwards through matching groups
     "a% In Visual mode, select the matching group, as specified backwardsy
-        Bundle 'git://github.com/edsono/vim-matchit.git'
+        "Bundle 'git://github.com/edsono/vim-matchit.git'
         
         "Bundle 'git://github.com/chrismetcalf/vim-yankring.git'
     "Splice is a Vim plugin for resolving conflicts during three-way merges.
@@ -164,19 +164,19 @@
    "syntax checkers and displays any resulting errors to the user. 
         Bundle 'git://github.com/scrooloose/syntastic.git'
         Bundle 'https://github.com/myhere/vim-nodejs-complete.git'
-        "Bundle 'git://github.com/tpope/vim-surround.git'
-        "Bundle 'git://github.com/vim-scripts/IndexedSearch.git'
-        "Bundle 'git://github.com/rphillips/vim-zoomwin.git'
+        "bundle 'git://github.com/tpope/vim-surround.git'
+        "bundle 'git://github.com/vim-scripts/indexedsearch.git'
+        "bundle 'git://github.com/rphillips/vim-zoomwin.git'
 
-    "The checksyntax plugin runs an external syntax checker for the current
+    "the checksyntax plugin runs an external syntax checker for the current
     "buffer 
-    "whenever the buffer is saved (by calling the |:CheckSyntax| command).
-    "Syntax 
-    "errors are managed as location or quickfix lists. If any syntax error
+    "whenever the buffer is saved (by calling the |:checksyntax| command).
+    "syntax 
+    "errors are managed as location or quickfix lists. if any syntax error
     "occurs, 
-    "the |location-list| is opened (users can redefine |CheckSyntaxFail()|
+    "the |location-list| is opened (users can redefine |checksyntaxfail()|
     "to change 
-    "this behaviour). You can use any |location-list| related command to
+    "this behaviour). you can use any |location-list| related command to
     "navigate 
     "the list of syntax errors.
         Bundle 'https://github.com/tomtom/checksyntax_vim.git'

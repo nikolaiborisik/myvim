@@ -16,7 +16,7 @@
     ",2
         nmap <Leader>2 :GundoToggle<CR> 
     ",3
-        nmap <Leader>3 :TagbarToggle<CR>
+        nmap <Leader>3 :TagbarOpenAutoClose<CR>
     
     ",4 
         nmap <Leader>4 :Gstatus<CR>
