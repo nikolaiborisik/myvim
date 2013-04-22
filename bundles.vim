@@ -194,6 +194,7 @@
         Bundle 'git://github.com/gregsexton/MatchTag.git'
     " CSS/LESS
         Bundle 'git://github.com/hail2u/vim-css3-syntax.git'
+        Bundle 'https://github.com/wavded/vim-stylus.git'
         Bundle 'git://github.com/ap/vim-css-color.git'
         Bundle 'git://github.com/groenewege/vim-less.git'
         Bundle 'git://github.com/miripiruni/vim-better-css-indent.git'

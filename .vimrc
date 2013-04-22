@@ -376,3 +376,4 @@ let snippets_dir="~/.myvim/snippets"
 
 syn match Tag /^\s*Bundle/
 au FileType javascript set dictionary+=$HOME/.myvim/dict/node.dict
+
